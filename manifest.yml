@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IoT-veva
+  host: IoT-veva
+  disk_quota: 1024M
+  services:
+  - IoT-veva-cloudantNoSQLDB
+  - IoT-veva-iotf-service
